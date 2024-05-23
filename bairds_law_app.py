@@ -129,4 +129,11 @@ st.write("""
 2. Various scientific journals and papers on General Relativity, Quantum Mechanics, String Theory, and Loop Quantum Gravity.
 """)
 
+# Create requirements.txt file
+requirements = """streamlit==1.0.0
+"""
+with open("requirements.txt", "w") as file:
+    file.write(rements)
+
+
 
