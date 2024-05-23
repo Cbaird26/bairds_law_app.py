@@ -24,7 +24,7 @@ General Relativity, developed by Albert Einstein, describes gravity not as a for
 
 In Baird's Law, General Relativity provides the foundation for understanding how mass and energy interact with spacetime. The Ricci scalar \( R \) and the determinant of the metric tensor \( \sqrt{-g} \) are crucial components of the unified action:
 
-\[
+\[ 
 S_{\text{ToE}} = \int d^{11}x \sqrt{-g} \left( R + \mathcal{L}_{\text{SM}} + \mathcal{L}_{\text{string}} + \mathcal{L}_{\text{quantum}} + \mathcal{L}_{\text{LQG}} \right)
 \]
 """)
@@ -40,7 +40,7 @@ The Lagrangian density for the Standard Model \( \mathcal{L}_{\text{SM}} \) incl
 
 In the unified framework, the Standard Model is essential for describing particle interactions and the fundamental forces, contributing to the overall Lagrangian density:
 
-\[
+\[ 
 \mathcal{L}_{\text{SM}} = -\frac{1}{4} F_{\mu\nu} F^{\mu\nu} + \bar{\psi} (i \gamma^\mu D_\mu - m) \psi + \left| D_\mu \phi \right|^2 - V(\phi)
 \]
 """)
@@ -51,8 +51,8 @@ String Theory posits that the fundamental constituents of the universe are not p
 
 In the context of Baird's Law, String Theory contributes to the Lagrangian density \( \mathcal{L}_{\text{string}} \):
 
-\[
-\mathcal{L}_{\text{string}} = \frac{1}{2\pi\alpha'} \int d^2\sigma \sqrt{-h} h^{ab} \partial_a X^\mu \partial_b X^\mu
+\[ 
+\mathcal{L}_{\text{string}} = \frac{1}{2\pi\alpha'} \int d^2\sigma \sqrt{-h} h^{ab} \partial_a X^\mu \partial_b X^\mu 
 \]
 
 Here, \( \alpha' \) is the string tension, \( h \) is the induced metric on the string worldsheet, and \( X^\mu \) are the string coordinates.
@@ -66,7 +66,7 @@ Quantum Mechanics provides the foundation for understanding the behavior of part
 
 QFT is essential for describing particle interactions and fields in a manner consistent with both quantum mechanics and special relativity. The Lagrangian density for QFT \( \mathcal{L}_{\text{quantum}} \) includes terms for:
 
-\[
+\[ 
 \mathcal{L}_{\text{quantum}} = \bar{\psi} (i \gamma^\mu \partial_\mu - m) \psi - \frac{1}{4} F_{\mu\nu} F^{\mu\nu}
 \]
 
@@ -81,7 +81,7 @@ Loop Quantum Gravity is an approach to quantize spacetime itself, treating it as
 
 The Lagrangian density for Loop Quantum Gravity \( \mathcal{L}_{\text{LQG}} \) includes terms that describe the quantum properties of spacetime:
 
-\[
+\[ 
 \mathcal{L}_{\text{LQG}} = \frac{1}{16\pi G} \left( \epsilon^{abcde} e_a^I e_b^J F_{cdIJ} \right)
 \]
 
