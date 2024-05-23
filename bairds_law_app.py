@@ -11,16 +11,16 @@ This theoretical framework integrates General Relativity, the Standard Model of 
 
 # Display Core Equation
 st.write("### Core Equation")
-st.latex(r"""
+st.latex(r'''
 S_{\text{ToE}} = \int d^{11}x \sqrt{-g} \left( R + \mathcal{L}_{\text{SM}} + \mathcal{L}_{\text{string}} + \mathcal{L}_{\text{quantum}} + \mathcal{L}_{\text{LQG}} \right)
-""")
+''')
 
 # Key Components Section
 st.write("## Key Components")
 
 st.write("""
 ### 1. General Relativity (GR)
-General Relativity, developed by Albert Einstein, describes gravity not as a force but as a curvature of spacetime caused by mass and energy. Objects follow the geodesics in this curved spacetime, which appears to us as gravitational attraction. This theory is mathematically represented by the Einstein field equations, which relate the geometry of spacetime (expressed through the Ricci curvature tensor \( R \) and the metric tensor \( g \)) to the energy and momentum of whatever matter and radiation are present. 
+General Relativity, developed by Albert Einstein, describes gravity not as a force but as a curvature of spacetime caused by mass and energy. Objects follow the geodesics in this curved spacetime, which appears to us as gravitational attraction. This theory is mathematically represented by the Einstein field equations, which relate the geometry of spacetime (expressed through the Ricci curvature tensor \( R \) and the metric tensor \( g \)) to the energy and momentum of whatever matter and radiation are present.
 
 In Baird's Law, General Relativity provides the foundation for understanding how mass and energy interact with spacetime. The Ricci scalar \( R \) and the determinant of the metric tensor \( \sqrt{-g} \) are crucial components of the unified action:
 
@@ -41,7 +41,7 @@ The Lagrangian density for the Standard Model \( \mathcal{L}_{\text{SM}} \) incl
 In the unified framework, the Standard Model is essential for describing particle interactions and the fundamental forces, contributing to the overall Lagrangian density:
 
 \[
-\mathcal{L}_{\text{SM}} = -\frac{1}{4} F_{\mu\nu}F^{\mu\nu} + \bar{\psi}(i\gamma^\mu D_\mu - m)\psi + \left| D_\mu \phi \right|^2 - V(\phi)
+\mathcal{L}_{\text{SM}} = -\frac{1}{4} F_{\mu\nu} F^{\mu\nu} + \bar{\psi} (i \gamma^\mu D_\mu - m) \psi + \left| D_\mu \phi \right|^2 - V(\phi)
 \]
 """)
 
@@ -67,7 +67,7 @@ Quantum Mechanics provides the foundation for understanding the behavior of part
 QFT is essential for describing particle interactions and fields in a manner consistent with both quantum mechanics and special relativity. The Lagrangian density for QFT \( \mathcal{L}_{\text{quantum}} \) includes terms for:
 
 \[
-\mathcal{L}_{\text{quantum}} = \bar{\psi}(i\gamma^\mu \partial_\mu - m)\psi - \frac{1}{4} F_{\mu\nu}F^{\mu\nu}
+\mathcal{L}_{\text{quantum}} = \bar{\psi} (i \gamma^\mu \partial_\mu - m) \psi - \frac{1}{4} F_{\mu\nu} F^{\mu\nu}
 \]
 
 Where \( \bar{\psi} \) represents the fermion fields, \( \gamma^\mu \) are the gamma matrices, \( F_{\mu\nu} \) is the field strength tensor, and \( m \) is the mass.
@@ -93,27 +93,27 @@ LQG provides a way to understand the quantum nature of gravity and spacetime, co
 # Mathematical Formulation Section
 st.write("## Mathematical Formulation")
 st.write("### Action Integral")
-st.latex(r"""
+st.latex(r'''
 S_{\text{ToE}} = \int d^{11}x \sqrt{-g} \left( R + \mathcal{L}_{\text{SM}} + \mathcal{L}_{\text{string}} + \mathcal{L}_{\text{quantum}} + \mathcal{L}_{\text{LQG}} \right)
-""")
+''')
 
 st.write("### Lagrangian Densities")
 st.write("- **General Relativity:** \( R \) represents the curvature scalar.")
-st.latex(r"""
-\mathcal{L}_{\text{SM}} = -\frac{1}{4} F_{\mu\nu}F^{\mu\nu} + \bar{\psi}(i\gamma^\mu D_\mu - m)\psi + \left| D_\mu \phi \right|^2 - V(\phi)
-""")
+st.latex(r'''
+\mathcal{L}_{\text{SM}} = -\frac{1}{4} F_{\mu\nu} F^{\mu\nu} + \bar{\psi} (i \gamma^\mu D_\mu - m) \psi + \left| D_\mu \phi \right|^2 - V(\phi)
+''')
 st.write("- **String Theory:**")
-st.latex(r"""
+st.latex(r'''
 \mathcal{L}_{\text{string}} = \frac{1}{2\pi\alpha'} \int d^2\sigma \sqrt{-h} h^{ab} \partial_a X^\mu \partial_b X_\mu
-""")
+''')
 st.write("- **Quantum Field Theory:**")
-st.latex(r"""
-\mathcal{L}_{\text{quantum}} = \bar{\psi}(i\gamma^\mu \partial_\mu - m)\psi - \frac{1}{4} F_{\mu\nu}F^{\mu\nu}
-""")
+st.latex(r'''
+\mathcal{L}_{\text{quantum}} = \bar{\psi} (i \gamma^\mu \partial_\mu - m) \psi - \frac{1}{4} F_{\mu\nu} F^{\mu\nu}
+''')
 st.write("- **Loop Quantum Gravity:**")
-st.latex(r"""
+st.latex(r'''
 \mathcal{L}_{\text{LQG}} = \frac{1}{16\pi G} \left( \epsilon^{abcde} e_a^I e_b^J F_{cdIJ} \right)
-""")
+''')
 
 # Conclusion
 st.write("## Conclusion")
@@ -128,9 +128,3 @@ st.write("""
 1. Christopher Michael Baird, "Theory of Everything".
 2. Various scientific journals and papers on General Relativity, Quantum Mechanics, String Theory, and Loop Quantum Gravity.
 """)
-
-# Create requirements.txt file
-requirements = """streamlit
-"""
-with open("requirements.txt", "w") as file:
-    file.write(requirements)
