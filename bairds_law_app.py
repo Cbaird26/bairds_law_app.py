@@ -130,10 +130,7 @@ st.write("""
 """)
 
 # Create requirements.txt file
-requirements = """streamlit==1.0.0
+requirements = """streamlit
 """
 with open("requirements.txt", "w") as file:
-    file.write(rements)
-
-
-
+    file.write(requirements)
