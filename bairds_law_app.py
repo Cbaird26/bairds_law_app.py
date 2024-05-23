@@ -128,5 +128,3 @@ st.write("""
 1. Christopher Michael Baird, "Theory of Everything".
 2. Various scientific journals and papers on General Relativity, Quantum Mechanics, String Theory, and Loop Quantum Gravity.
 """)
- scientific journals and papers on General Relativity, Quantum Mechanics, String Theory, and Loop Quantum Gravity.
-""")
