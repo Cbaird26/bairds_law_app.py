@@ -52,7 +52,7 @@ String Theory posits that the fundamental constituents of the universe are not p
 In the context of Baird's Law, String Theory contributes to the Lagrangian density \( \mathcal{L}_{\text{string}} \):
 
 \[
-\mathcal{L}_{\text{string}} = \frac{1}{2\pi\alpha'} \int d^2\sigma \sqrt{-h} h^{ab} \partial_a X^\mu \partial_b X_\mu
+\mathcal{L}_{\text{string}} = \frac{1}{2\pi\alpha'} \int d^2\sigma \sqrt{-h} h^{ab} \partial_a X^\mu \partial_b X^\mu
 \]
 
 Here, \( \alpha' \) is the string tension, \( h \) is the induced metric on the string worldsheet, and \( X^\mu \) are the string coordinates.
@@ -104,7 +104,7 @@ st.latex(r'''
 ''')
 st.write("- **String Theory:**")
 st.latex(r'''
-\mathcal{L}_{\text{string}} = \frac{1}{2\pi\alpha'} \int d^2\sigma \sqrt{-h} h^{ab} \partial_a X^\mu \partial_b X_\mu
+\mathcal{L}_{\text{string}} = \frac{1}{2\pi\alpha'} \int d^2\sigma \sqrt{-h} h^{ab} \partial_a X^\mu \partial_b X^\mu
 ''')
 st.write("- **Quantum Field Theory:**")
 st.latex(r'''
