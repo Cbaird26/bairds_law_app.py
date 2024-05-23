@@ -54,7 +54,7 @@ st.write("""
 - **Standard Model:**
 """)
 st.latex(r"""
-\mathcal{L}_{\text{SM}} = -\frac{1}{4} F_{\mu\nu}F^{\mu\nu} + \bar{\psi}(i\gamma^\mu D_\mu - m)\psi + |D_\mu \phi|^2 - V(\phi)
+\mathcal{L}_{\text{SM}} = -\frac{1}{4} F_{\mu\nu}F^{\mu\nu} + \bar{\psi}(i\gamma^\mu D_\mu - m)\psi + \left| D_\mu \phi \right|^2 - V(\phi)
 """)
 st.write("""
 - **String Theory:**
